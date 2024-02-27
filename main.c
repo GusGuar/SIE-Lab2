@@ -4,6 +4,7 @@
 	@file main.c
 	@remarks Note: using <b>Whitesmiths</b> indetation
 	@author (2024) José Ribeiro, 72473, <j.miguel.ribeiro@ua.pt>
+	@author (2024) Gustavo Guariglia, 103353, <gustavo.guariglia@ua.pt>
 */
 //******************************************************************************
 
