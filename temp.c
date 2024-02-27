@@ -1,7 +1,7 @@
 
 //******************************************************************************
 /**
-	@file fifo.c
+	@file temp.c
 	@brief brief
 	@remarks Using <b>Whitesmiths</b> indetation
 	@bug No known bugs.
@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "fifo.h"
+#include "temp.h"
 //----------------------------------------------------------
 
 //----------------------------------------------------------

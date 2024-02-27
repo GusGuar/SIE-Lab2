@@ -8,10 +8,10 @@ TARGET = main
 
 all: $(TARGET)
 
-$(TARGET): main.o fifo.o
+$(TARGET): main.o temp.o
 		$(CC) -o $@ $^ $(LDFLAGS)
 
-$(TARGET):	fifo.h
+$(TARGET):	temp.h
 
 clean:
 		rm -f *.o *~
