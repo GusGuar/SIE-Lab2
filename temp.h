@@ -20,12 +20,18 @@
 #define TEMP_H
 
 //----------------------------------------------------------
-/**
-@brief A struct representing a FIFO
-*/
-typedef struct
-	{
-	} TEMP;
+/** \brief Inicializa um vetor para armazenar a temperatura
+ */
+int* dtInit();
+
+/** \brief Adiciona um valor de temperatura a um vetor
+ */
+int dtAdd(int* vect, int temp);
+
+/** \brief Retorna estatísticas sobre um vetor de temperaturas
+ */
+int dtStat(int* vect, int* min, int* max, int* avg);
+
 //------------------------------------------------------
 
 //##########################################################
